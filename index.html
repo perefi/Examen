@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+       <style>
+        :root{
+        }
+    
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        
+           body{
+               font-family: 'Open Sans', sans-serif;
+               color:#717D6F;
+           }
+           nav{
+               display:flex;
+               justify-content: right;
+               position: fixed;
+               top: 0;
+               right: 0;
+               
+           }
+           .navmed{
+               margin-right: 10px;
+               margin-left: 10px;
+               
+           }
+           .navdiv{
+               display: flex;
+               justify-content: center;
+               background-color: white;
+               height: 30px;
+               width: 50;
+               padding: 30px;
+               
+            font-size: 18px;
+            font-weight:800
+           }
+           .text1{
+               width: 821px;
+               height: 112px;
+               padding: 20px;
+               
+           }
+           .titol p{
+               text-align: center;
+               font-size: 312.814px;
+               font-family: 'Lora', serif;
+            
+               
+           }
+           
+           
+               
+              
+        
+           .fotoa{
+            width:615px;
+            height:930;
+            overflow: hidden;
+            grid-row: span 2;
+           }
+           .fotob{
+            width:615px;
+            height: 465px;
+            overflow: hidden;
+           }
+           main{
+            display: grid;
+            grid-template-columns: repeat(2, 615px);
+            grid-template-rows: repeat(2, 465px);
+            grid-gap: 20px;
+            object-fit: cover;
+             margin-top: 80px;
+               margin-bottom: 150px;
+               justify-content: center;
+           }
+           
+           footer{
+               display: flex;
+               justify-content: center;
+               font-size: 20px;
+           }
+           .footer1{
+               width:465px;
+            height: 615px;
+               color: black;
+           }
+           .footer2{
+               width:465px;
+            height: 615px;
+               color: black;
+           }
+    </style>
+</head>
+<body>
+        <nav>
+          <div class="navdiv">
+           <a href="">Work</a>
+           <a class="navmed" href="">Inspo</a>
+           <a href="">About</a>
+        </div>
+        </nav>
+        
+        
+        <header>
+            <div class="text1"><p>We are a brand experience design company.  We partner with clients to help them connect with their audiences through outstanding products, experiences, and environments.  We do it through our unique design “with a point of view” approach.  We believe that enriching product experiences with a sense of style always delivers business results.</p></div>
+            <div class="titol"><p>Dothings</p></div>
+        </header>
+        
+        
+        <main>
+           
+            <div class="fotoa"><img src="img/dothings.jpg"></div>
+            <div class="fotob"><img src="img/vote.jpg"></div>
+            <div class="fotob"><img src="img/TomFord.gif"></div>
+        </main>
+        
+        
+        <footer>
+            <div class="footer1">
+                <p>61 Greenpoint Ave, Suite #306</p>
+                <p>Brooklyn, NY 11222</p>
+                <p>212 228 3328</p>
+                <a href="">hello@dothingsnyc.com</a>
+            </div>
+            <div class="footer2">
+                <a href="">Instagram</a>
+                <a class="linkedin" href=""><p>linkedin</p></a>
+                <p>©Dothings 2019</p>
+            </div>
+            
+        </footer>
+</body>
+</html>
